@@ -36,7 +36,8 @@ After installing GSTUNIT, you can import it into your Python projects and use it
 import gstunit
 
 # Example usage
-translated_code = gstunit.translate_gosi_to_ndebe(gosi_code)
+translated_code = gstunit.igbo_to_ndebe(gosi_code) # Alternatively
+# translated_igbo_from_ndebe = gstunit.ndebe_to_igbo(translated_code)
 print(translated_code)
 ```
 
