@@ -2,16 +2,12 @@
 
 ## Gosilang Translation Unit
 
-GSTUNIT is a Python package designed to facilitate translation between the Gosi programming language and other languages. It serves as a translation unit specifically tailored for Gosi, enabling developers to seamlessly convert code written in Gosi to other languages and vice versa.
-
 ### Features
-
-- Translation of Gosi programming language constructs to various target languages.
+- Translation from Igbo to Ndebe.
 - Support for translating code snippets, scripts, and larger Gosi projects.
 - Seamless integration with existing Python workflows.
 
 ### Purpose
-
 The primary purpose of GSTUNIT is to bridge the gap between Gosi and other programming languages, facilitating interoperability and enabling developers to leverage the strengths of both Gosi and other languages. By providing a reliable translation unit, GSTUNIT aims to enhance the development experience for Gosi programmers and enable them to collaborate more effectively with developers working in other languages.
 
 ### Translation Capabilities

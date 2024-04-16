@@ -51,7 +51,7 @@ class NdebeKeyboardMapping(BaseKeyboardMapping):
         return self.mapping.keys()
 
 
-class NdebeStandardLayoutMapping(KeyboardMapping):
+class NdebeStandardLayoutMapping(BaseKeyboardMapping):
     def __init__(self):
         # Define your mapping dictionary here
         self.mapping = {
@@ -172,7 +172,7 @@ class NdebeStandardLayoutMapping(KeyboardMapping):
         return self.mapping.keys()
 
 
-class NdebeMobileLayoutMapping(KeyboardMapping):
+class NdebeMobileLayoutMapping(BaseKeyboardMapping):
     def __init__(self):
         # Define your mapping dictionary here
         self.mapping = {
