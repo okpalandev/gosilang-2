@@ -1,4 +1,3 @@
-
 from .gstunit.__main__ import *
 
 if __name__ == "__main__":
@@ -15,3 +14,5 @@ if __name__ == "__main__":
     # Pickle the dictionary
     with open('keyboard_mappings.pkl', 'wb') as f:
         pickle.dump(mapping_dict, f)
+
+    
