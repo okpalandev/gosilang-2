@@ -28,7 +28,7 @@ EXECUTABLE := $(BIN_DIR)/gosi
 # Main target
 all: $(EXECUTABLE)
 	cd $(SRC_DIR) && $(MAKE)
-
+	
 # Rule to compile main.c into an object file
 $(OBJ_DIR)/main.o:  main.c | $(OBJ_FILES) $(HEADER_FILES)
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -41,6 +41,7 @@ $(EXECUTABLE): $(OBJ_FILES) $(OBJ_DIR)/main.o | $(INCLUDE_FILES)
 # Rule to compile object files
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c $(HEADER_FILES)
 	$(CC) $(CFLAGS) -c $< -o $@
+
 
 # Clean target
 clean:
