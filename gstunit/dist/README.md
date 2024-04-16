@@ -48,6 +48,14 @@ If you encounter any issues while using GSTUNIT or have suggestions for improvem
 https://github.com/okpalandev/gstunit
 ```
 
-4. License
+4. Contributing
+
+Contributions to GSTUNIT are welcome! If you'd like to contribute to the project, please follow these guidelines:
+1.Fork the repository on GitHub.
+2.    Make your changes in a feature branch.
+3.  Submit a pull request with your changes.
+
+
+5. License
 
 GSTUNIT is licensed under the MIT License. See the LICENSE file for more details.
