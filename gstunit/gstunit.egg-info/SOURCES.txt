@@ -1,3 +1,4 @@
+README.md
 setup.py
 gstunit.egg-info/PKG-INFO
 gstunit.egg-info/SOURCES.txt
