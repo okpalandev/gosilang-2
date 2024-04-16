@@ -1,0 +1,2 @@
+[console_scripts]
+gstunit = gstunit.__main__:main

@@ -1,0 +1,6 @@
+setup.py
+gstunit.egg-info/PKG-INFO
+gstunit.egg-info/SOURCES.txt
+gstunit.egg-info/dependency_links.txt
+gstunit.egg-info/entry_points.txt
+gstunit.egg-info/top_level.txt
